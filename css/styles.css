@@ -1,0 +1,298 @@
+html {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin-top: 50px;
+  background-color: #f4f4f4;
+  font-family: 'Roboto', sans-serif;
+  color: #594a42;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1,h2,h3 {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+}
+
+h1,h2,h3, i.fa {
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.navbar {
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#navbar li a {
+  color: #594a42;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+#navbar li a:focus,
+#navbar li a:hover {
+  background: none;
+  font-weight: bold;
+}
+
+#navbar .btn {
+  font-size: 16px;
+}
+
+#navbar .btn-default {
+  margin-right: 30px;
+}
+
+.navbar-custom {
+  background-color: #e67e22;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+@media (max-width: 1024px) {
+  #contactButton span,
+  #loginButton span {
+    display: none;
+  }
+}
+
+.section-header {
+  padding: 60px 0;
+  text-align: center;
+}
+
+#hero {
+  background: url('../img/village.jpg') bottom center no-repeat;
+  height: 750px;
+}
+
+#services .row {
+  padding: 20px 20px;
+}
+
+#services i.fa {
+  font-size: 60px;
+  margin-top: 20px;
+}
+
+#services h3 {
+  color: #e67e22;
+}
+
+#tarifs {
+  margin-top: 60px;
+  padding-bottom: 60px;
+  background: #594a42 url('../img/feathers.jpg') top left repeat;
+  color: #f4f4f4;
+  text-align: center;
+}
+
+#tarifs .plan {
+  color: #594a42;
+  background: #f4f4f4;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding-bottom: 20px;
+}
+
+#tarifs .head {
+  background: #231f20;
+  color: #f4f4f4;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: normal;
+  padding: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  -moz-border-top-left-radius: 5px;
+  -moz-border-top-right-radius: 5px;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  text-align: center;
+}
+
+#tarifs .head h2 {
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+
+#tarifs .head i.fa {
+  color: #f39c12;
+}
+
+#tarifs .item-list {
+  padding: 30px;
+  text-align: center;
+}
+
+#tarifs .item-list li {
+
+}
+
+#tarifs .item-list i.fa {
+
+}
+
+#tarifs .price {
+  padding-bottom: 30px;
+}
+
+#tarifs .price h3 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#tarifs > .row > .col-md-3 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#tarifs .btn-success {
+  padding: 12px 20px;
+  background: #f39c12;
+  border-color: #E67E22;
+}
+
+#buttons .btn-success:hover,
+#buttons .btn-success:focus {
+  background: #E67E22;
+}
+
+footer {
+  font-size: 14px;
+  padding: 50px 0;
+  background: #231f20;
+  color: #f4f4f4;
+  text-align: center;
+}
+
+footer p.lead {
+  margin-top: 30px;
+}
+
+footer img {
+  margin-bottom: 20px;
+}
+
+footer #contact-btn {
+  font-size: 16px;
+}
+
+/* === Modal === */
+
+#contactModal .modal-content {
+  background: url('../img/tile.jpg') top left repeat;
+}
+
+#contactModal label {
+    margin: 10px 0 10px;
+    color: #E67E22;
+}
+
+#contactModal h4 {
+  color: #E67E22;
+}
+
+#contactModal i.fa {
+    display: inline !important;
+    font-size: 100%;
+}
+
+#contactModal .btn {
+    background: #f39c12;
+    border-color: #E67E22;
+    font-weight: bold;
+    color: #F4F4F4;
+}
+
+#contactModal .btn:hover,
+#contactModal .btn:focus {
+  background: #E67E22;
+}
+
+@media (max-width: 1024px) {
+
+  #contactButton span,
+  #loginButton span {
+    display: none;
+  }
+
+  #hero {
+    height: 400px;
+  }
+
+  tr.price th > small {
+    display: inline-block;
+  }
+
+}
+
+@media (max-width: 769px) {
+  .price-item.col-md-4 {
+    margin-top: 40px;
+  }
+
+  .price-item.col-md-4:first-child {
+    margin-top: 0;
+  }
+
+  footer .btn.btn-success {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 481px) {
+  footer .btn.btn-success {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+}
+
+.eagle{
+  position: relative;
+  transition: all 0.8s ease-in-out;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+}
+
+.target-eagle{
+  position: relative;
+}
+
+/*.target-eagle:before{
+  content:"";
+  position: absolute;
+  top: calc(50% - 5px);
+  left: calc(50% - 5px);
+  width: 10px;
+  height: 10px;
+  background: #000;
+}
+
+.eagle:before{
+  content:"";
+  position: absolute;
+  top: -5000px;
+  left: 50%;
+  width: 1px;
+  height: 10000px;
+  background: #000;
+}*/
